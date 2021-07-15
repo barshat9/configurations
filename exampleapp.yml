@@ -1,0 +1,3 @@
+application:
+  name: example-app
+  baseUrl: http://localhost:4000
