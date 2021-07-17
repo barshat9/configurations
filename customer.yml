@@ -1,0 +1,4 @@
+server:
+  port: 0
+application:
+  message: Customer Service Is Up
