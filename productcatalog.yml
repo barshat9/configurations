@@ -1,2 +1,6 @@
 server:
   port: 0
+inventoryService: inventory
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
