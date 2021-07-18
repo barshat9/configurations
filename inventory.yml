@@ -1,7 +1,7 @@
 server:
   port: 0
   servlet:
-    context-paht: /inventory-api
+    context-path: /inventory-api
 eureka:
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
