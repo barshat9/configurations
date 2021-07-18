@@ -1,5 +1,7 @@
 server:
   port: 0
+  servlet:
+    context-path: /product-api
 inventoryService: inventory
 eureka:
   instance:
